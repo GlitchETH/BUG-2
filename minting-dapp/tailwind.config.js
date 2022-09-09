@@ -14,15 +14,15 @@ module.exports = {
           from_bg: colors.slate[100],
           to_bg: colors.slate[200],
         },
-        titles: colors.indigo[600],
+        titles: colors.slate[800],
         links: {
-          txt: colors.indigo[600],
-          hover_txt: colors.indigo[700],
-        },
-        loading_spinner: colors.indigo[500],
-        popups: {
-          bg: colors.white,
           txt: colors.slate[800],
+          hover_txt: colors.slate[800],
+        },
+        loading_spinner: colors.slate[800],
+        popups: {
+          bg: colors.slate[700],
+          txt: colors.slate[200],
           internal_border: colors.slate[200],
         },
         warning: {
@@ -38,20 +38,20 @@ module.exports = {
 
         // Inputs
         btn: {
-          txt: colors.slate[800],
-          bg: colors.white,
+          txt: colors.slate[100],
+          bg: colors.slate[700],
           border: colors.slate[200],
           hover_txt: colors.slate[800],
-          hover_bg: colors.slate[100],
-          hover_border: colors.slate[200],
+          hover_bg: colors.red[500],
+          hover_border: colors.red[500],
         },
         btn_primary: {
           txt: colors.white,
-          bg: colors.indigo[500],
-          border: colors.indigo[500],
+          bg: colors.red[900],
+          border: colors.red[900],
           hover_txt: colors.white,
-          hover_bg: colors.indigo[600],
-          hover_border: colors.indigo[600],
+          hover_bg: colors.red[500],
+          hover_border: colors.red[600],
         },
         btn_error: {
           txt: colors.white,
@@ -61,12 +61,12 @@ module.exports = {
           hover_bg: colors.red[600],
           hover_border: colors.red[600],
         },
-        label: colors.indigo[600],
+        label: colors.slate[200],
         txt_input: {
-          txt: colors.indigo[600],
+          txt: colors.slate[800],
           bg: colors.white,
           border: colors.slate[200],
-          focus_txt: colors.indigo[600],
+          focus_txt: colors.slate[800],
           focus_bg: colors.slate[50],
           focus_border: colors.indigo[300],
           placeholder_txt: colors.indigo[600],
@@ -75,11 +75,11 @@ module.exports = {
         // Whitelist proof widget
         wl_message: {
           txt: colors.slate[800],
-          bg: colors.indigo[100],
+          bg: colors.slate[800],
         },
 
         // Mint widget
-        token_preview: colors.indigo[200],
+        token_preview: colors.slate[600],
       },
     },
   },
