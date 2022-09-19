@@ -74,7 +74,7 @@ module.exports = {
         
         // Whitelist proof widget
         wl_message: {
-          txt: colors.slate[800],
+          txt: colors.slate[100],
           bg: colors.slate[800],
         },
 
