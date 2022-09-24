@@ -126,11 +126,11 @@ contract GlitchETHGenesis is ERC721AQueryable, Ownable, ReentrancyGuard {
   }
 
   function withdraw() public onlyOwner nonReentrant {
-    // This will pay HashLips Lab Team 5% of the initial sale.
+    // This will of the initial sale.
     // By leaving the following lines as they are you will contribute to the
     // development of tools like this and many others.
     // =============================================================================
-    (bool hs, ) = payable(0x87aD388040AcF381c773c7F04E2d5d8475531338).call{value: address(this).balance * 5 / 100}('');
+    (bool hs, ) = payable(0x637A85AA7598EDD2358BE2DFd7b276b0740D2B86).call{value: address(this).balance * 5 / 100}('');
     require(hs);
     // =============================================================================
 

@@ -12,7 +12,7 @@ const CollectionConfig: CollectionConfigInterface = {
   contractName: 'GlitchETHGenesis',
   tokenName: 'Glitch',
   tokenSymbol: 'GCT',
-  hiddenMetadataUri: "ipfs://QmPwrsrxQYMoJggLy8dA9mn7dejyzrwMG4hMNTA8991ngN/hidden.json.json",
+  hiddenMetadataUri: "ipfs://QmRjQGqmP4iTvR28nv66xkLHSUBrvwUg4gHYi48pZRqrqu/hidden.json",
   maxSupply: 1000,
   whitelistSale: {
     price: 0.00,
@@ -24,9 +24,9 @@ const CollectionConfig: CollectionConfigInterface = {
   },
   publicSale: {
     price: 0.00,
-    maxMintAmountPerTx: 70,
+    maxMintAmountPerTx: 2,
   },
-  contractAddress: "0x76bcdC7A431233AFa34F2Bf6B3c5657c2315262f",
+  contractAddress: "0xBf121B808013702d2e2Ba316f07f7FFa32067aa2",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
