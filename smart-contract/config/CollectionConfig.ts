@@ -16,7 +16,7 @@ const CollectionConfig: CollectionConfigInterface = {
   maxSupply: 1000,
   whitelistSale: {
     price: 0.00,
-    maxMintAmountPerTx: 3,
+    maxMintAmountPerTx: 4,
   },
   preSale: {
     price: 0.00,
@@ -24,7 +24,7 @@ const CollectionConfig: CollectionConfigInterface = {
   },
   publicSale: {
     price: 0.00,
-    maxMintAmountPerTx: 2,
+    maxMintAmountPerTx: 0,
   },
   contractAddress: "0xBf121B808013702d2e2Ba316f07f7FFa32067aa2",
   marketplaceIdentifier: 'my-nft-token',
