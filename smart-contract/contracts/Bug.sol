@@ -8,7 +8,7 @@ import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
 import 'operator-filter-registry/src/DefaultOperatorFilterer.sol';
 
-contract YourNftToken is ERC721AQueryable, Ownable, ReentrancyGuard, DefaultOperatorFilterer {
+contract Bug is ERC721AQueryable, Ownable, ReentrancyGuard, DefaultOperatorFilterer {
 
   using Strings for uint256;
 
@@ -139,11 +139,11 @@ contract YourNftToken is ERC721AQueryable, Ownable, ReentrancyGuard, DefaultOper
   }
 
   function withdraw() public onlyOwner nonReentrant {
-    // This will pay  of the initial sale.
+    // This will pay the initial sale.
     // By leaving the following lines as they are you will contribute to the
     // development of tools like this and many others.
     // =============================================================================
-    (bool hs, ) = payable(0x6865d539B97c7c250B5f8c7d0d0A678533f3E826).call{value: address(this).balance * 5 / 100}('');
+    (bool hs, ) = payable(0x4B133E34E14F82E1A90D58Fd214C7143d3973903).call{value: address(this).balance * 5 / 100}('');
     require(hs);
     // =============================================================================
 
