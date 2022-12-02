@@ -46,7 +46,7 @@ export default class CollectionStatus extends React.Component<Props, State> {
             <span className="label">Sale status</span>
             {this.isSaleOpen() ?
               <>
-                {this.props.isWhitelistMintEnabled ? 'Exploding Whales' : 'Open'}
+                {this.props.isWhitelistMintEnabled ? 'Glitch Whales' : 'Open'}
               </>
               :
               'Closed'
